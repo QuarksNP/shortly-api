@@ -10,20 +10,20 @@
     xl:text-left
     xl:flex-row-reverse
     xl:pt-16
-    
 }
 
 .articleContainer{
     @apply
-    border
     w-full
     flex
     flex-col
     items-center
     gap-5
-    2xl:p-24
+    mt-10
+    2xl:pr-48
     xl:p-0
     xl:items-start
+    xl:mt-0
 }
 
 .article{
@@ -32,9 +32,6 @@
     flex-col
     gap-5
 }
-
-
-
 
 .title{
     @apply

@@ -28,10 +28,10 @@ module.exports = {
       },
       
       backgroundImage: theme => ({
-        'shorten-mobile' : "url('./src/assets/Backgrounds/bg-boost-mobile.svg')",
-        'shorten-desktop' : "url('./src/assets/Backgrounds/bg-shorten-desktop.svg')",
-        'boost-mobile' : "url('./src/assets/Backgrounds/bg-boost-mobile.svg')",
-        'boost-desktop' : "url('./src/assets/Backgrounds/bg-boost-desktop.svg')"
+        'shorten-mobile' : "url('/backgrounds/bg-boost-mobile.svg')",
+        'shorten-desktop' : "url('/backgrounds/bg-boost-desktop.svg')",
+        'boost-mobile' : "url('/backgrounds/bg-boost-mobile.svg')",
+        'boost-desktop' : "url('/backgrounds/bg-boost-desktop.svg')"
       })
     },
   },

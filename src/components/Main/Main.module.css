@@ -1,0 +1,79 @@
+.main{ 
+    @apply
+    relative
+    px-10
+    pt-10
+    translate-y-24
+    z-20
+    lg:px-40
+    lg:translate-y-16
+}
+
+.background{
+    @apply
+    absolute
+    w-full
+    h-full
+    bg-shorten-mobile
+    bg-cover
+    md:bg-shorten-desktop
+}
+
+.form{
+    @apply
+    relative
+    w-full
+    flex
+    flex-col
+    gap-5
+    p-7
+    items-center
+    justify-center
+    rounded-xl
+    bg-Dark-Violet
+    overflow-hidden
+    md:flex-row
+    md:p-10
+}
+
+.containerForm{
+    @apply
+    z-20
+    w-full
+}
+
+.input{
+    @apply
+    w-full
+    h-14
+    p-5
+    text-lg
+    text-Very-Dark-Blue
+    rounded-md
+    outline-none
+    z-10
+    placeholder:text-lg
+}
+
+.button{
+    @apply
+    w-full
+    h-14
+    text-lg
+    bg-Cyan
+    text-white
+    rounded-md
+    z-10
+    hover:bg-Hover-Cyan
+    transition-colors
+    md:w-48
+}
+
+
+.error{
+    @apply
+    text-Red
+    italic
+    z-20
+    md:absolute
+}
