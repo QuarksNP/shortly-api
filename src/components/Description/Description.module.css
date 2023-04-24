@@ -1,0 +1,39 @@
+.section{
+    @apply
+    flex
+    flex-col
+    text-center
+    items-center
+    px-10
+    pt-10
+    lg:px-40
+    xl:text-left
+    xl:flex-row-reverse
+    xl:gap-60
+    xl:pt-16
+    
+}
+
+.article{
+    @apply
+    w-full
+    grid
+    grid-cols-1
+    items-center
+    justify-center
+    gap-5
+}
+
+.title{
+    @apply
+    text-6xl
+    text-Very-Dark-Blue
+    font-bold
+    
+}
+
+.description{
+    @apply
+    text-lg
+    text-Gray
+}

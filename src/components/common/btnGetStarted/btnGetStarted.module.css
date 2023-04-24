@@ -1,0 +1,12 @@
+.btnGetStarted{
+    @apply
+    w-40
+    h-12
+    
+    text-white 
+    bg-Cyan 
+    rounded-full
+    hover:bg-Hover-Cyan
+    transition-colors
+    
+}
