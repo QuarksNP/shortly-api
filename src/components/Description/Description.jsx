@@ -7,8 +7,8 @@ export default function Description() {
     return (
         <section className={styles.section}>
             <Image src={ilustration} width={600} height={600} alt="working-ilustration"/>
-            <div className={styles.article}>
-                <article>
+            <div className={styles.articleContainer}>
+                <article className={styles.article}>
                     <h1 className={styles.title}>More than just shorter links</h1>
                     <p className={styles.description}>
                         Build your brand is recognition and get detailed insight on how your

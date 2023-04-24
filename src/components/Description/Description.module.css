@@ -9,20 +9,32 @@
     lg:px-40
     xl:text-left
     xl:flex-row-reverse
-    xl:gap-60
     xl:pt-16
     
 }
 
+.articleContainer{
+    @apply
+    border
+    w-full
+    flex
+    flex-col
+    items-center
+    gap-5
+    2xl:p-24
+    xl:p-0
+    xl:items-start
+}
+
 .article{
     @apply
-    w-full
-    grid
-    grid-cols-1
-    items-center
-    justify-center
+    flex
+    flex-col
     gap-5
 }
+
+
+
 
 .title{
     @apply
