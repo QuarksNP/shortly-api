@@ -1,0 +1,117 @@
+.header{
+    @apply 
+    grid
+    grid-flow-col
+    items-center
+    relative
+    px-10
+    pt-10
+    lg:px-40
+    md:flex
+    md:gap-10
+}
+
+.logo{
+    @apply 
+    w-32
+    object-contain
+}
+
+.nav{
+    @apply
+    opacity-0
+    grid 
+    justify-center
+    items-center
+    justify-self-center
+    mr-[150%]
+    mt-96
+    bg-Dark-Violet
+    rounded-md
+    absolute
+    w-72
+    h-72
+    md:justify-end
+    md:grid
+    md:grid-cols-2
+    md:h-auto
+    md:w-full
+    md:relative
+    md:bg-transparent
+    md:m-auto
+    md:opacity-100
+    
+}
+
+.active{
+    @apply
+    mr-0
+    opacity-100 
+    transition-opacity 
+}
+
+.iconContainer{
+    @apply
+    justify-self-end
+    block
+    md:hidden
+}
+
+.icon{
+    @apply
+    text-3xl
+    text-Gray
+}
+
+.listContainer{
+    @apply 
+    text-white
+    font-semibold
+    flex 
+    flex-col 
+    gap-4
+    items-center
+    list-none
+    md:text-Gray
+    md:flex-row 
+    md:justify-self-start
+    md:after:hidden
+    after:content-[attr(before)]
+    after:border
+    after:border-Gray
+    after:w-48
+}
+
+.list{
+    @apply
+    md:hover:text-Very-Dark-Violet
+    transition-colors
+}
+
+.signUp{
+    @apply 
+    w-36
+    h-12
+    border-none
+    text-white 
+    bg-Cyan 
+    rounded-full
+    transition-colors
+    hover:bg-Hover-Cyan
+}
+
+.login{
+    @apply 
+    text-white
+    md:text-Gray
+}
+
+.buttonContainer{
+    @apply 
+    flex
+    flex-col
+    items-center
+    gap-4
+    md:flex-row 
+    justify-end
+}
