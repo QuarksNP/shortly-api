@@ -1,14 +1,20 @@
-import { useState } from "react"
+
+import { useState, useEffect } from "react"
 import  useGetLink  from "../useGetLink/useGetLink"
 
 const useHandleSubmitLink = () => {
     
+    const [linksData, setLinksData] = useState([])
     const { fetchData, error } = useGetLink()
     
-    const [linksData, setLinksData] = useState(() =>{
-        const savedLinks = JSON.parse(localStorage.getItem('links'))
-        return savedLinks || []
-    })
+    useEffect(() => {
+        if (process.browser) {
+            const savedLinks = JSON.parse(localStorage.getItem("links"));
+            if (savedLinks !== null) {
+                setLinksData(savedLinks);
+            }
+        }
+    }, []);
     
     async function handleSubmit(){
         event.preventDefault()
