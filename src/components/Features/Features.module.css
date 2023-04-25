@@ -1,5 +1,6 @@
 .containerFeatures{
     @apply
+    mb-20
     flex
     flex-col
     gap-20
