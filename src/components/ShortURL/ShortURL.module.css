@@ -1,0 +1,28 @@
+.mainFeatures{
+    @apply
+    relative
+    flex
+    flex-col
+    items-center
+    text-center
+    px-10
+    pb-10
+    lg:px-40
+    lg:gap-10
+    before:bg-[#EFF1F7]
+    before:absolute
+    before:w-full
+    before:h-full
+}
+
+.linksContainer{
+    @apply
+    flex
+    flex-col
+    gap-4
+    w-full
+    mt-28
+    mb-10
+    lg:mt-20
+    lg:mb-5
+}

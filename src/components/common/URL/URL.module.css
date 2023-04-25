@@ -1,0 +1,55 @@
+.container{
+    @apply
+    relative
+    flex
+    flex-col
+    gap-3
+    p-5
+    bg-white
+    w-full
+    rounded-xl
+    z-10
+    lg:grid
+    lg:grid-flow-col
+    lg:items-center
+}
+
+.copyContainer{
+    @apply
+    flex
+    flex-col
+    gap-3
+    text-Cyan
+    lg:flex-row
+    lg:items-center
+    lg:justify-self-end
+}
+
+.originalLink{
+    @apply
+    line-clamp-1
+    border-b-[1px]
+    text-Very-Dark-Blue
+    lg:border-none
+    lg:justify-self-start
+}
+
+.btnCopy{
+    @apply
+    w-full
+    p-3
+    text-white
+    bg-Cyan
+    rounded-lg
+    transition-colors
+    hover:bg-Hover-Cyan
+    lg:w-36
+    lg:h-12
+}
+
+.isCopied{
+    @apply
+    bg-Very-Dark-Violet
+    hover:bg-Very-Dark-Violet
+
+}

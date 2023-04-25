@@ -1,0 +1,20 @@
+.iconContainer{
+    @apply
+    bg-Dark-Violet
+    w-20
+    h-20
+    rounded-full
+    flex
+    flex-col
+    items-center
+    justify-center
+    border
+    absolute
+    -top-10
+    z-20
+}
+
+.icon{
+    @apply
+    w-10
+}

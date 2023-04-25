@@ -1,0 +1,25 @@
+.features{
+    @apply
+    relative
+    flex
+    flex-col
+    items-center
+    text-center
+    justify-center
+    p-14
+    gap-5
+    text-Grayish-Violet
+    bg-white
+    rounded-xl
+    z-10
+    xl:h-[320px]
+    xl:items-start
+    xl:text-start
+}
+
+.featuresTitle{
+    @apply
+    text-Very-Dark-Blue
+    text-xl
+    font-bold
+}

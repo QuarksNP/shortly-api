@@ -1,0 +1,65 @@
+.containerFeatures{
+    @apply
+    flex
+    flex-col
+    gap-20
+    relative
+    text-center
+    items-center
+    xl:grid
+    xl:grid-cols-3
+    xl:h-[400px]
+}
+
+.DescriptionFeatures{
+    @apply
+    flex
+    flex-col
+    gap-5
+    text-Grayish-Violet
+    font-bold
+    z-10 
+}
+
+.mainTitle{
+    @apply
+    font-bold
+    text-3xl
+    text-Very-Dark-Blue
+}
+
+.start{
+    @apply
+    xl:self-start
+    before:content-['']
+    before:absolute
+    before:w-2
+    before:h-11
+    before:-bottom-11
+    before:bg-Cyan
+    xl:before:rotate-90
+    xl:before:-right-11
+    xl:before:bottom-36
+    xl:before:top-auto
+    xl:before:h-20
+}
+
+.center{
+    @apply
+    before:content-['']
+    before:absolute
+    before:w-2
+    before:h-11
+    before:-bottom-11
+    before:bg-Cyan
+    xl:before:rotate-90
+    xl:before:-right-11
+    xl:before:bottom-36
+    xl:before:h-20
+}
+
+.end{
+    @apply
+    xl:self-end
+}
+
