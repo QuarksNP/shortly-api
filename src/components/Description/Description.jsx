@@ -1,6 +1,6 @@
 import Image from "next/image"
 import ilustration from "../../../public/images/illustration-working.svg"
-import GetStarted from "../common/btnGetStarted/btnGetStarted"
+import ButtonGetStarted from "../common/btnGetStarted/btnGetStarted"
 import styles from "./Description.module.css"
 
 export default function Description() {
@@ -15,7 +15,7 @@ export default function Description() {
                             links are performing.
                     </p>
                 </article>
-                <GetStarted />
+                <ButtonGetStarted />
             </div>
         </section>
     );

@@ -1,0 +1,38 @@
+.section{
+    @apply
+    p-10
+    h-[375px]
+    bg-Dark-Violet
+    flex
+    flex-col
+    items-center
+    justify-center
+    relative
+    md:h-auto
+}
+
+.background{
+    @apply
+    absolute
+    w-full
+    h-full
+    bg-boost-mobile
+    bg-cover
+    md:bg-boost-desktop
+}
+
+.container{
+    @apply
+    z-10
+    flex
+    flex-col
+    items-center
+    text-center
+    gap-5
+}
+
+.title{
+    @apply
+    text-3xl
+    text-white
+}

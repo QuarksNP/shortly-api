@@ -1,0 +1,52 @@
+.footer{
+    @apply
+    p-10
+    bg-Very-Dark-Violet
+    grid
+    grid-cols-1
+    gap-10
+    items-center
+    justify-items-center
+    lg:grid-cols-3
+}
+
+.container{
+    @apply
+    flex
+    flex-col
+    text-center
+    gap-5
+    lg:flex-row
+    lg:gap-24
+    justify-center
+}
+
+.title{
+    @apply
+    text-white
+    text-lg
+}
+
+.listContainer{
+    @apply
+    text-Gray
+    flex
+    flex-col
+    gap-1
+}
+
+.iconsContainer{
+    @apply
+    flex
+    text-3xl
+    gap-5
+    text-white
+    justify-self-center
+    lg:justify-self-end
+}
+
+.icons{
+    @apply
+    transition-colors
+    hover:text-Cyan
+}
